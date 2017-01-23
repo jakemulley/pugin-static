@@ -40,7 +40,7 @@
     "watch:all": "npm-run-all -p serve watch:css watch:js watch:images",
     "postinstall": "npm run build:all && npm run watch:all"
   },
-  "devDependencies": {
+  "dependencies": {
     "autoprefixer": "^6.3.6",
     "browser-sync": "^2.12.8",
     "eslint": "^2.10.2",
@@ -55,5 +55,8 @@
     "postcss-cli": "^2.5.2",
     "rimraf": "^2.5.4",
     "uglify-js": "^2.6.2"
+  },
+  "devDependencies": {
+  
   }
 }
