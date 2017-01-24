@@ -12,6 +12,9 @@
   "bugs": {
     "url": "https://github.com/ukparliament/pugin-static/issues"
   },
+  "scripts": {
+    "postinstall": "make build"
+  },
   "dependencies": {
     "autoprefixer": "^6.7.0",
     "imagemin-cli": "^3.0.0",
