@@ -1,27 +1,43 @@
-# Members static prototype 
+# Pugin (Static)
+[pugin-static][pugin-static] is a library created by the [Parliamentary Digital Service][pds] to allow rapid prototyping for Parliamentary websites.
 
-## Dependencies
-### * Node
+[![License][shield-license]][info-license]
+
+> **NOTE:** This is currently in active development and will change at short notice. It is not production ready.
+
+## Requirements
+[pugin-static][pugin-static] requires the following:
+
+* [Nodejs][nodejs] 6.0.0 and above
 
 ## Installation
-### `make install`
+To install, clone from GitHub and `npm install` in the cloned directory:
 
-Installs all dependencies, runs a local server and watches html, css and javascript changes
+```bash
+git clone https://github.com/ukparliament/pugin-static.git
+cd pugin-static
+npm install
+```
 
-## Local server
-### `make s`
+## Usage
+*@todo*
 
-Runs a local server and watches changes
+## Contributing
+If you wish to submit a bug fix or feature, you can create a pull request and it will be merged pending a code review.
 
-## Build
-### `make build`
+1. Fork the repository
+1. Create your feature branch (`git checkout -b my-new-feature`)
+1. Commit your changes (`git commit -am 'Add some feature'`)
+1. Push to the branch (`git push origin my-new-feature`)
+1. Create a new Pull Request
 
-Compiles scss, javascript and images into a _public folder
+## License
+[pugin-static][pugin-static] is licensed under the [Open Parliament Licence][info-license].
 
-## Clean
-### `make clean`
+[nodejs]:          http://nodejs.org
 
-Deletes the _public folder
+[pugin-static]:    https://github.com/ukparliament/pugin-static
+[pds]:             https://www.parliament.uk/mps-lords-and-offices/offices/bicameral/parliamentary-digital-service/
 
-## Licence
-This microservice is available under the [Open Parliament Licence](http://www.parliament.uk/site-information/copyright/open-parliament-licence/).
+[info-license]:    http://www.parliament.uk/site-information/copyright/open-parliament-licence/
+[shield-license]:  https://img.shields.io/badge/license-Open%20Parliament%20Licence-blue.svg
